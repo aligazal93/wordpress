@@ -1,0 +1,17 @@
+li
+{
+font-size:20px;
+font-style:bolder;
+list-style:none;	
+color:red;
+}
+/*.done , .del
+{
+display:none;
+}*/
+.new 
+{
+font-style:bolder;
+font-size:30px;
+color:blue;
+}
