@@ -79,11 +79,41 @@ $(document).ready(function() {
 	
 	});
 /* end the table */
-	
-	
+	$(".bars").click(function(){
+		$(".slide-menu").hide(400);
+  	    $(".user-profile").animate({paddingLeft:'140px'},3000);
+	});
 
+	$(".anime .focus").click(function(){
+		$(".anime .para").slideToggle();
+	});
 
+	$(".sec-anime").click(function(){
+		$(".anime .para2").slideToggle();
+	});
+	$(".third-anime").click(function(){
+		$(".para3").slideToggle();
+	});
 
+	$(".fourth-anime").click(function(){
+		$(".para4").slideToggle();
+	});
 
+	$(".fifth-anime").click(function(){
+		$(".para5").slideToggle();
+	});
+
+	$(".sec6-anime").click(function(){
+	  $(".para6").slideToggle();
+	});
+
+	$(".sec7-anime").click(function(){
+	  $(".para7").slideToggle();
+	});
+
+	$(".anime .first-anime").click(function(){
+	  $(".paras").slideToggle();
+	});
+ 
 
 });
